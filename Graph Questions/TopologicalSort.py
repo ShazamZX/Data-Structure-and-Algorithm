@@ -25,7 +25,7 @@ class Graph:
             if neighbor not in visited:
                 self.dfs(neighbor,visited,stack)
         stack.append(src)
-#driver
+#driver code
 
 g = Graph()
 g.addEdge(5, 2)
